@@ -1,0 +1,23 @@
+form.form-example {
+    display: table;
+  }
+  
+  div.form-example {
+    display: table-row;
+  }
+  
+
+  
+  label {
+    padding-right: 10px;
+  }
+
+  #selectOrigem, #selectDestino {
+    font-size: 0.9rem;
+    padding: 2px 5px;
+    
+  }
+
+  #selects, #input_moedas{
+    margin: 10px 20px;
+  }

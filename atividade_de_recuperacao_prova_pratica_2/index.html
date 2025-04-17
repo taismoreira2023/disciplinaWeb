@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" method="get" class="form-example">
+        <div id="selects">
+            <label for="select">Moeda de origem</label>
+
+            <select id="selectOrigem">
+            <option value="">--Escolha uma opção--</option>
+            <option value="Real">Real</option>
+            <option value="Dollar">Dollar</option>
+            <option value="Iene">Iene</option>
+            </select>
+
+            <label for="select">Moeda de Destino</label>
+
+            <select id="selectDestino">
+            <option value="">--Escolha uma opção--</option>
+            <option value="Real">Real</option>
+            <option value="Dollar">Dollar</option>
+            <option value="Iene">Iene</option>
+            </select>
+        </div>
+        <div id="input_moedas">
+          <label for="name">Moeda atual </label>
+          <input id="input_moeda_origem" type="number" id="tentacles" name="tentacles" min="10" max="1000" />
+          <!-- <label for="name">Moeda atual </label>
+          <input id="inpute_moeda_destino" type="number" id="tentacles" name="tentacles" min="10" max="1000" />   -->
+        </div>
+        <div class="form-example">
+          <input id="botao" type="submit" value="Subscribe!" />
+        </div>
+        
+        <ul id="listaHistorico">
+            <li>
+                <div>
+                    <p>data: 00000000</p>
+                    <p>moedas: real -> dollar</p>
+                    <p>valores: 10real -> 50dolar</p>
+                </div>
+            </li>
+        </ul>
+      </form>
+      <script src="script.js"></script>
+
+</body>
+</html>
