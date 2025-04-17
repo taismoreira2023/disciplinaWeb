@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="musica.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Projeto Playlist</title>
+    
+</head>
+<body>
+    <div>
+
+    <div id="title-playlist"><h3> Albino</h3></div>
+    <img id="cover" alt="Boneca de pano tocando violão">
+    <audio id="audio"></audio>
+    <div id="below-cover">
+       <div id="song-info">
+           <p id="music-name">Name music</p>
+           <p id="artist">Name Artist</p>
+        </div>
+        <button id="button-like" class="button"><i class="bi bi-heart"></i></button>
+    </div>
+
+    <div id="container_progress">
+        <div id="progress-bar"> 
+            <div id="progress"></div>
+        </div>
+        <div id="time">
+            <div id="minDuration">00:00:00</div>
+            <div id="minTotalDuration">00:00:00</div>
+        </div>
+    </div>
+        
+    <div id="buttons-container">
+       <button id="shuffle" class="button"> <i class="bi bi-shuffle"></i></button>
+       <button id="previous" class="button-navigation"> <i class="bi bi-skip-start-fill"></i></button>
+       <button id="play" class="button-biggest"> <i class="bi bi-play-circle-fill"></i></button>
+       <button id="next" class="button-navigation"> <i class="bi bi-skip-end-fill"></i></button>
+       <button id="repeat" class="button"> <i class="bi bi-repeat"></i></button>
+    </div>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>

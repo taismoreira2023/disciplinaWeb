@@ -1,0 +1,141 @@
+:root{
+    --color-primary1:#ffffff;
+    --color-primary2:#ffffffaa;
+    --color-primary3:#788d9f;
+    --color-primary4:#374667;
+    --color-primary5:#04000d;
+    --color-primary6:#80463e;
+    --color-primary7:#fdbf56;
+    --color-primary8:#725625;
+    --progress: 0%;
+
+}
+
+
+body{
+    background-image: linear-gradient(
+        var(--color-primary4),
+        var(--color-primary5)
+        );
+    height: 100vh;/*vh é altura vertical disponível*/
+    color: var(--color-primary1);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mar{
+    background-image: linear-gradient(
+        var(--color-primary4),
+        var(--color-primary5)
+        );
+}
+
+.violin{
+    background-image: linear-gradient(
+        var(--color-primary6),
+        var(--color-primary4)
+        );
+}
+
+.queen{
+    background-image: linear-gradient(
+        var(--color-primary7),
+        var(--color-primary8)
+        );
+}
+
+button{
+    background-color: inherit;
+    color:inherit;
+    border: none;
+}
+
+#below-cover{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+    
+}
+#song-info p{
+    margin: 2px;
+}
+
+#buttons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+#music-name{
+    font-size: 2em;
+    font-style: italic;
+    font-weight: bolder;
+}
+#artist{
+    color: var(--color-primary2);
+    font-size: 1.1em;
+}
+
+.button{
+    font-size: 1.5em;
+}
+button{
+    cursor: pointer;
+}
+.button-navigation{
+    font-size: 3em;
+}
+.button-biggest{
+    font-size: 4em;
+}
+#progress-bar {
+    height: 3px;
+    width: 100%;
+    background-color: var(--color-primary3);
+    border-radius: 15px;
+}
+
+#progress{
+    
+    background-color: var(--color-primary1);
+    height: inherit;/*faz ter a mesma height do pai*/
+    width: var(--progress);
+    border-radius: inherit;/*herda a borda do pai*/
+}
+#time{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+    color: #ffffffa3;
+}
+#title-playlist{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2.2em;
+}
+
+#cover{
+    width: 380px;
+}
+
+#container_progress{
+    padding-bottom: 1em;
+    cursor: pointer;
+}
+
+.button-active{
+    color: rgb(18, 200, 18);
+}
+
+.like-active{
+    color: rgb(238, 29, 29);
+}
+

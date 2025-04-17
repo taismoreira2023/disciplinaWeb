@@ -1,0 +1,72 @@
+html,body{
+    margin: 0;
+    padding: auto;
+}
+
+.cabecalho{
+    background-color: beige;
+    color: #815728
+    
+}
+
+#titulo{
+    text-align: center;
+    padding: 40px;
+}
+.menu-lista{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    background-color: white;
+}
+.menu-lista li a{
+    text-decoration: none;
+    color:black;
+}
+
+.menu-lista li{
+    padding: 10px 20px 10px 20px;
+    margin: 20px;
+    display: inline;
+    background-color: rgb(252, 253, 238);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(220, 220, 173);
+    cursor: auto;
+}
+
+.content-introducao{
+    display: flex;
+    justify-content:space-between ;
+    margin-top: 30px;
+}
+.content-introducao img{
+    width: 50%;
+    height: auto;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+
+.curiosidades{
+    margin-top: 30px;
+}
+#list-curiosidade{
+    display: flex;
+    justify-content: space-between;
+}
+#list-curiosidade li{ 
+    padding: 20px;
+    color: #564228;
+}
+#list-curiosidade li p span{
+    color: #564228;
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    color: rgb(73, 71, 71);
+    background-color: rgba(0, 0, 0, 0.187);
+    
+}

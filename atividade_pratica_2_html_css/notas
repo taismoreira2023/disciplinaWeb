@@ -1,0 +1,49 @@
+        Tema: Gatinho Miau
+        Estrutura:
+            head - > Title
+
+            header - > titulo, menu de navegação
+
+            Main - > 2 sections
+                        Título
+                        Parágrafo
+                        Imagens
+
+            Footer - > Texto
+            Vaidação do HTML no "W3C"
+            ----------------------------
+            head - > meta de informações
+            header - > cabeçalho 
+            h1 ... h6 - > titulo
+            nav - > menu
+            img - > imagem
+            ul - > lista não ordenada
+            ol - > lista ordenada
+            li - > item da lista
+            p - > paragrafo 
+            a - > link
+
+
+1. Atividade Individual
+    a. Desenvolver uma página web simples em HTML. 🆗
+    b. A página deve conter um título, pelo menos uma seção, parágrafos, e headlines em
+diversos níveis.
+    c. A página deve ser validada pelo validador do W3C para garantir que o código está em
+conformidade com os padrões da web.
+    d. Estrutura da Página:
+        i. A página deve começar com a declaração do tipo de documento (<!DOCTYPE
+html>).
+        ii. Inclua uma tag <head> que contenha o <title> da página.
+        iii. O corpo da página (<body>) deve conter:
+            1. Pelo menos uma seção (<section>).
+            2. Um título principal usando a tag <h1>.
+            3. Subtítulos usando as tags <h2>, <h3>, etc., conforme necessário.
+            4. Pelo menos dois parágrafos (<p>).
+e. Escolha o tema que você preferir
+f. Use como base os documentos fornecidos
+ 
+
+ Curiosidades
+Ronronar: O som de um gato ronronando pode ser uma forma de comunicação e também uma maneira de se tranquilizar, já que em algumas situações de estresse, eles podem ronronar para se acalmar.
+Bigodes sensoriais: Os bigodes de um gato não são apenas decorativos; eles são altamente sensíveis e ajudam o animal a perceber o ambiente ao seu redor, detectando mudanças e até navegando em lugares apertados.
+Dorminhocos: Os gatos dormem entre 12 e 16 horas por dia, o que os torna um dos animais mais sonolentos do reino animal. Esse descanso é crucial para sua saúde e bem-estar.
